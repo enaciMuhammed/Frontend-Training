@@ -8,11 +8,14 @@ function UncontrolledForm () {
         alert(`Submitted value: ${inputRef.current.value}`);
     };
     return (
-        <form onSubmit={handleSubmit}>
+        <div>
+            <h2>    Uncontrolled Form Example</h2>
+    <form onSubmit={handleSubmit}>
             <label>Name</label>
             <input type="text" ref={inputRef} />
             <button type="submit">Submit</button>
         </form>
+        </div>
     );
 }
 

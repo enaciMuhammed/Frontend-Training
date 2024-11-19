@@ -7,6 +7,7 @@ function ControlledForm () {
     }
     return (
         <div>
+            <h2>Controlled Form Example</h2>
             <form onSubmit={(e) => e.preventDefault()}>
                 <label className="text-red-500">Name</label>
                 <input type="text" value={inputName} onChange={handleChange}/>

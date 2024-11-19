@@ -6,6 +6,12 @@ function Count () {
     const [count, setCount] = useState(0);
     return (
         <div>
+            <h2>useState</h2>
+            <p> <strong> useState: </strong>
+                The useState hook allows you to add state to a functional
+                component. it returns an array with two elements: the
+                current state value and a function to update it</p>
+            <h3>Example: Counter</h3>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment</button>
         </div>

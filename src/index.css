@@ -1,3 +1,36 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e4e9;
+    cursor: pointer;
+
+}
+.red-btn {
+    background-color: red;
+    color: white;
+}
+.blue-btn {
+    background-color: blue;
+    color: white;
+}
+.yellow-btn {
+    background-color: yellow;
+    color: grey;
+}
+.reset {
+    margin: 14px auto;
+}
+.reset-btn {
+    /*background-color: green;*/
+    /*color: white;*/
+    width: 140px;
+}
